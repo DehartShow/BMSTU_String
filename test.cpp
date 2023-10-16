@@ -1,5 +1,7 @@
 #include <gtest/gtest.h>
 #include <string>
+#include "main.h"
+
 TEST(GoogleTestCi, Foo) {
   ASSERT_TRUE(true);
 }
