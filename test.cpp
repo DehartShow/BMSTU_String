@@ -1,12 +1,9 @@
 #include <gtest/gtest.h>
-#include <string>
 #include "main.h"
+using namespace bmstu;
 
-TEST(GoogleTestCi, Foo) {
-  ASSERT_TRUE(true);
-}
-TEST(ExampleTest, DmitriiLeonidovich){
-    std::string dml = "DmitriiLeonidovich";
-    const char * dml_c = "DmitriiLeonidovich";
-    ASSERT_STREQ(dml.c_str(), dml_c);
+
+TEST(BMSTU_Test, test1){
+    string a = "Ershov";
+    ASSERT_EQ(a[0], 'E');
 }
