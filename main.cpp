@@ -8,7 +8,6 @@ namespace bmstu {
             size_t counter = 0;
             while (str[counter] != '\0')
                 counter++;
-
             return counter;
         }
 
@@ -26,7 +25,7 @@ namespace bmstu {
     public:
         /// Конструктор по умолчанию
         string() {
-            ptr_ = new char [1];
+            ptr_ = new char[1];
             ptr_[0] = '\0';
             size_ = 0;
         }
